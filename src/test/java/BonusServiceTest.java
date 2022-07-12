@@ -66,7 +66,6 @@ public class BonusServiceTest {
         assertEquals(expected, actual);
     }
 
-
     @org.junit.jupiter.api.Test
     void shouldCalculateForNonRegisteredAndUnderLimit() {
         BonusService service = new BonusService();
